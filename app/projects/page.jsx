@@ -2,19 +2,14 @@
 import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { GrMail } from 'react-icons/gr';
-import Typography from '@mui/material/Typography';
-import Breadcrumbs from '@mui/material/Breadcrumbs';
-import Link from '@mui/material/Link';
-import HomeIcon from '@mui/icons-material/Home';
-import WhatshotIcon from '@mui/icons-material/Whatshot';
-import GrainIcon from '@mui/icons-material/Grain';
+import { Breadcrumbs } from "@material-tailwind/react";
 
 function handleClick(event) {
     event.preventDefault();
     console.info('You clicked a breadcrumb.');
 }
 
-const page = () => {
+const Projects = () => {
     return (
         <>
             <div className='bg-site bg-no-repeat bg-cover overflow-hidden h-screen'>
@@ -44,30 +39,25 @@ const page = () => {
                         </div>
                     </div>
                 </header>
-                <div role="presentation" onClick={handleClick}>
-                    <Breadcrumbs aria-label="breadcrumb" className='text-white'>
-                        <Link
-                            className='flex '
-                            underline="hover"
-                            sx={{ alignItems: 'center' }}
-                            color="inherit"
-                            href="/"
+                <Breadcrumbs>
+                    <a href="/" className="opacity-60">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-4 w-4"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
                         >
-                            <HomeIcon sx={{ mr: 0.5 }} fontSize="inherit" />
-                            Portfolio
-                        </Link>
-                        <Typography
-                            sx={{ display: 'flex', alignItems: 'center' }}
-
-                        >
-                            <GrainIcon sx={{ mr: 0.5 }} fontSize="inherit" />
-                            Projects
-                        </Typography>
-                    </Breadcrumbs>
-                </div>
+                            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                        </svg>
+                    </a>
+                    <a href="#" className="opacity-60">
+                        <span>Components</span>
+                    </a>
+                    <a href="#">Breadcrumbs</a>
+                </Breadcrumbs>
                 <section>
                     <div className='container'>
-                        <h1 className='text-white'>This is Refresh</h1>
+                        <h1 className='text-white'>This iss Refsrssesh</h1>
                     </div>
                 </section>
             </div>
@@ -76,4 +66,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Projects
