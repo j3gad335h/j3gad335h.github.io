@@ -19,9 +19,9 @@ const Work = () => {
               <h2 className='h2 leading-tight text-accent'>My Latest <br />Work.</h2>
               <p className='max-w-sm mb-16'>My latest projects using modern web technologies such as HTML, Css, Javascript along with FastAPI and Laravel to
                 create responsive and user-friendly web applications.</p>
-              <button className='btn btn-sm'>
-                <Link href={"projects"}>View all projects</Link>
-              </button>
+
+              <Link href={"projects"}><button className='btn btn-sm'>View all projects</button></Link>
+
             </div>
             {/* Image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
