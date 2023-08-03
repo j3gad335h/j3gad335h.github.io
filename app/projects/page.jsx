@@ -65,88 +65,36 @@ const Projects = () => {
                     </div>
                     <div>
                         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:items-center">
-                            <div className='my-2 flex justify-center items-center'>
-                                <Card className="max-w-[24rem] overflow-hidden ">
-                                    <CardHeader
-                                        floated={false}
-                                        shadow={false}
-                                        color="transparent"
-                                        className="m-0 rounded-none "
-                                    >
-                                        <img
-                                            src="/weather.png"
-                                            alt="ui/ux review check"
-                                        />
-                                    </CardHeader>
-                                    <CardBody>
-                                        <Typography variant="h4" color="blue-gray">
-                                            Weather Application
-                                        </Typography>
-                                        <Typography variant="lead" color="gray" className="mt-3 font-normal">
-                                            NextJS Weather Application powered by OpenWeatherMap's API
-                                        </Typography>
-                                    </CardBody>
-                                    <CardFooter className="flex items-center justify-end">
+                            <div className='my-2 flex justify-center items-center '>
+                                <a href="https://weather-app-drab-psi.vercel.app/">
+                                    <Card className="max-w-[24rem] overflow-hidden border-2 hover:border-green-500">
+                                        <CardHeader
+                                            floated={false}
+                                            shadow={false}
+                                            color="transparent"
+                                            className="m-0 rounded-none "
+                                        >
+                                            <img
+                                                src="/weather.png"
+                                                alt="ui/ux review check"
+                                            />
+                                        </CardHeader>
+                                        <CardBody>
+                                            <Typography variant="h4" color="blue-gray">
+                                                Weather Application
+                                            </Typography>
+                                            <Typography variant="lead" color="gray" className="mt-3 font-normal">
+                                                NextJS Weather Application powered by OpenWeatherMap's API
+                                            </Typography>
+                                        </CardBody>
+                                        <CardFooter className="flex items-center justify-end">
 
-                                        <Typography className="font-normal">May 27</Typography>
-                                    </CardFooter>
-                                </Card>
+                                            <Typography className="font-normal">May 27</Typography>
+                                        </CardFooter>
+                                    </Card>
+                                </a>
+
                             </div>
-                            <div className='my-2 flex justify-center items-center'>
-                                <Card className="max-w-[24rem] overflow-hidden">
-                                    <CardHeader
-                                        floated={false}
-                                        shadow={false}
-                                        color="transparent"
-                                        className="m-0 rounded-none"
-                                    >
-                                        <img
-                                            src="/weather.png"
-                                            alt="ui/ux review check"
-                                        />
-                                    </CardHeader>
-                                    <CardBody>
-                                        <Typography variant="h4" color="blue-gray">
-                                            Weather Application
-                                        </Typography>
-                                        <Typography variant="lead" color="gray" className="mt-3 font-normal">
-                                            NextJS Weather Application powered by OpenWeatherMap's API
-                                        </Typography>
-                                    </CardBody>
-                                    <CardFooter className="flex items-center justify-end">
-
-                                        <Typography className="font-normal">May 27</Typography>
-                                    </CardFooter>
-                                </Card>
-                            </div>
-                            <div className='my-2 flex justify-center items-center'>
-                                <Card className="max-w-[24rem] overflow-hidden">
-                                    <CardHeader
-                                        floated={false}
-                                        shadow={false}
-                                        color="transparent"
-                                        className="m-0 rounded-none"
-                                    >
-                                        <img
-                                            src="/weather.png"
-                                            alt="ui/ux review check"
-                                        />
-                                    </CardHeader>
-                                    <CardBody>
-                                        <Typography variant="h4" color="blue-gray">
-                                            Weather Application
-                                        </Typography>
-                                        <Typography variant="lead" color="gray" className="mt-3 font-normal">
-                                            NextJS Weather Application powered by OpenWeatherMap's API
-                                        </Typography>
-                                    </CardBody>
-                                    <CardFooter className="flex items-center justify-end">
-
-                                        <Typography className="font-normal">May 27</Typography>
-                                    </CardFooter>
-                                </Card>
-                            </div>
-
                         </div>
                     </div>
 

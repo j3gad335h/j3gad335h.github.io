@@ -74,7 +74,15 @@
   .section {
     height: max-content !important;
   }
+  .custom-loader-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
   .flex a:hover svg {
     color: blue; /* Change the color to the desired color */
   }
+  
 }

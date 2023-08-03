@@ -22,7 +22,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold 
           uppercase leading-[1]'>
-              <span className='mr-4 text-white'>Backend Developer proficient in</span>
+              <span className='flex w-full mr-4 text-white'>Backend Developer proficient in </span>
               <TypeAnimation sequence={[
                 'Python',
                 1000,
