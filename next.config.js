@@ -12,10 +12,10 @@
 // };
 const nextConfig = {
   output: "export",
-  // images: {
-  //   loader: "akamai",
-  //   path: "/out",
-  // },
+  images: {
+    loader: "akamai",
+    path: "/",
+  },
 };
 module.exports = {
   ...nextConfig,
