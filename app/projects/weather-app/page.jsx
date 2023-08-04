@@ -96,7 +96,7 @@ export default function Home() {
                     <CardBody>
                         <div className="flex items-center justify-center">
                             <div className="w-1/3">
-                                <Image
+                                <img
                                     src={`https://openweathermap.org/img/wn/${todayWeather?.weather[0]?.icon}@2x.png`}
                                     width={300}
                                     height={300}
@@ -121,7 +121,7 @@ export default function Home() {
                                     <CardBody>
                                         <div className="flex flex-col items-center">
                                             <h2>{moment.unix(data?.dt).format('dddd')}</h2>
-                                            <Image src={`https://openweathermap.org/img/wn/${data?.weather[0]?.icon}@2x.png`} width={80} height={80} alt='Weather PNG' />
+                                            <img src={`https://openweathermap.org/img/wn/${data?.weather[0]?.icon}@2x.png`} width={80} height={80} alt='Weather PNG' />
                                             <h2>{data?.main?.temp} °C</h2>
                                         </div>
                                     </CardBody>
