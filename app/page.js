@@ -8,7 +8,7 @@ import Services from "@/components/Services";
 import Work from "@/components/Work";
 export default function Home() {
   return (
-    <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
+    <div className="bg-dev bg-no-repeat bg-cover overflow-hidden">
       <Header />
       <Banner />
       <Nav />

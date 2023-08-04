@@ -21,32 +21,7 @@ const Projects = () => {
     return (
         <>
             <div className='bg-site bg-no-repeat bg-cover overflow-hidden h-screen'>
-                <header className='py-2  top-0 w-full shadow'>
-                    <div className='container mx-auto'>
-                        <div className='flex justify-between items-center'>
-                            <a href="/">
-                                <img src="/logo-2.png" alt="" width={125} />
-                            </a>
-                            <div>
-                                <h1>All Projects</h1>
-                            </div>
-                            <div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-                                <span className='text-gradient btn-link'>Contact Me</span>
-                                <div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-                                    <a href="https://www.linkedin.com/in/jegadeeshn/" target='_blank' rel="noopener noreferrer">
-                                        <FaLinkedin />
-                                    </a>
-                                    <a href="https://github.com/j3gad335h" target='_blank' rel="noopener noreferrer">
-                                        <FaGithub />
-                                    </a>
-                                    <a href="mailto:ntjegadeesh@gmail.com" target='_blank' rel="noopener noreferrer">
-                                        <GrMail />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </header>
+
                 <section className='px-4'>
                     <div >
                         <Breadcrumbs>
@@ -65,16 +40,16 @@ const Projects = () => {
                     </div>
                     <div>
                         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:items-center">
-                            <div className='my-2 flex justify-center items-center '>
-                                <a href="https://weather-app-drab-psi.vercel.app/">
-                                    <Card className="max-w-[24rem] overflow-hidden border-2 hover:border-green-500">
+                            <div className='my-2 flex justify-center items-center'>
+                                <a href="projects/weather-app">
+                                    <Card className=" max-w-[24rem] overflow-hidden border-2 hover:border-green-500">
                                         <CardHeader
                                             floated={false}
                                             shadow={false}
                                             color="transparent"
                                             className="m-0 rounded-none "
                                         >
-                                            <img
+                                            <img className='border-1 border-black'
                                                 src="/weather.png"
                                                 alt="ui/ux review check"
                                             />
