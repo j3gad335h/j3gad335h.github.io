@@ -1,6 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* globall.css */
+
+/* Import Montserrat font styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Set font family for the body */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
 .btn {
   background: linear-gradient(

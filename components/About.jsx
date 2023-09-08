@@ -4,7 +4,7 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../utils/motion'
-
+import Content from '@/utils/content';
 const About = () => {
   const [ref, inView] = useInView({ threshold: 0.5 });
   return (
@@ -17,7 +17,7 @@ const About = () => {
             variants={fadeIn('right', 0.3)}
             initial="hidden"
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }} 
+            viewport={{ once: false, amount: 0.3 }}
             className='flex-1 lg:bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-center'></motion.div>
           {/* Text */}
           <motion.div
@@ -26,12 +26,9 @@ const About = () => {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1'>
-            <h2 className='h2 text-accent'>About Me.</h2>
-            <h3 className='h3 mb-4'>Backend Web Developer with 1 year experience.</h3>
-            <p className='mb-6'>I am a highly motivated and passionate developer with a keen interest in developing software that solves real-world problems.
-              My goal is to build high-quality software that is not only reliable and scalable but also user-friendly. I am a quick learner and always willing to take on new challenges.
-              I enjoy working in a team environment and believe in open communication and collaboration. In my free time,
-              I enjoy coding personal projects, playing video games, and watching movies.</p>
+            <h2 className='h2 text-accent'>{Content.aboutMeH2}</h2>
+            <h3 className='h3 mb-4'>{Content.aboutMeH3}</h3>
+            <p className='mb-6'>{Content.aboutMeParagraph1}</p>
             {/* Stats */}
             <div className='flex gap-x-6 mb-12'>
               <div>

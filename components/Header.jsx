@@ -1,6 +1,7 @@
 
 import React from 'react';
 //Images
+import Image from 'next/image';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { GrMail } from 'react-icons/gr';
 
@@ -10,7 +11,7 @@ const Header = () => {
             <div className='container mx-auto'>
                 <div className='flex justify-between items-center'>
                     <a href="/">
-                        <img src="/logo-2.png" alt="" width={125} />
+                        <Image src={"/logo-2.png"} alt='Jegadeesh Logo' width={125} height={34} />
                     </a>
                     <div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
                         <span className='text-gradient btn-link'>Contact Me</span>
