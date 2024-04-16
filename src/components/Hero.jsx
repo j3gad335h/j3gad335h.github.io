@@ -11,7 +11,7 @@ const Hero = () => {
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-green" />
-          <div className="w-1 sm:h-80 h-40 green-gradient" />
+          <div className="w-1 sm:h-80 h-40 green-pink-gradient" />
         </div>
         <div>
           <motion.h1

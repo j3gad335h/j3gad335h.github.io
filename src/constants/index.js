@@ -24,11 +24,9 @@ export const portfolio = {
     Strong in full-stack web development, server-side solutions, and
     backend optimization.`,
   overview: `Highly motivated and passionate developer with a strong interest in
-  crafting software solutions for real-world challenges. Committed to
-  building reliable, scalable, and user-friendly applications. Quick
+  crafting software solutions for real-world challenges. Quick
   learner, skilled in FastAPI, Laravel, and knowledgeable in React.js and
-  Next.js. Thrives in collaborative team environments and values open
-  communication. Enjoys coding personal projects, gaming, and watching
+  Next.js. Enjoys coding personal projects, gaming, and watching
   movies in free time.`,
 };
 
