@@ -1,31 +1,30 @@
-import { naruto, minato } from "@/assets";
-import kakashi from "@/assets/profile/kakashi.png";
-import konohamaru from "@/assets/profile/konohamaru.png";
-import jiraiya from "@/assets/profile/jiraiya.png";
 export const profiles = [
   {
     name: "Jiraya",
-    image: jiraiya,
+    image:
+      "https://storage.cloud.google.com/jegs-bucket/jiraiya.png?authuser=1",
     locked: true,
   },
   {
     name: "Minato",
-    image: minato,
+    image: "https://storage.cloud.google.com/jegs-bucket/minato.png?authuser=1",
     locked: true,
   },
   {
     name: "Kakashi",
-    image: kakashi,
+    image:
+      "https://storage.cloud.google.com/jegs-bucket/kakashi.png?authuser=1",
     locked: true,
   },
   {
     name: "Naruto",
-    image: naruto,
+    image: "https://storage.cloud.google.com/jegs-bucket/naruto.png?authuser=1",
     locked: true,
   },
   {
     name: "Konohamaru",
-    image: konohamaru,
+    image:
+      "https://storage.cloud.google.com/jegs-bucket/konohamaru.png?authuser=1",
     locked: true,
   },
 ];
