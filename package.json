@@ -22,6 +22,7 @@
     "@tanstack/router-vite-plugin": "^1.26.21",
     "framer-motion": "^11.0.28",
     "gh-pages": "^6.1.1",
+    "mui-one-time-password-input": "^2.0.2",
     "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
