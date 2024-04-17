@@ -17,6 +17,7 @@ import { Route as rootRoute } from './routes/__root'
 // Create Virtual Routes
 
 const IndexLazyImport = createFileRoute('/')()
+const ProjectsNetflixIndexLazyImport = createFileRoute('/projects/netflix/')()
 
 // Create/Update Routes
 
@@ -24,6 +25,13 @@ const IndexLazyRoute = IndexLazyImport.update({
   path: '/',
   getParentRoute: () => rootRoute,
 } as any).lazy(() => import('./routes/index.lazy').then((d) => d.Route))
+
+const ProjectsNetflixIndexLazyRoute = ProjectsNetflixIndexLazyImport.update({
+  path: '/projects/netflix/',
+  getParentRoute: () => rootRoute,
+} as any).lazy(() =>
+  import('./routes/projects/netflix/index.lazy').then((d) => d.Route),
+)
 
 // Populate the FileRoutesByPath interface
 
@@ -33,11 +41,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexLazyImport
       parentRoute: typeof rootRoute
     }
+    '/projects/netflix/': {
+      preLoaderRoute: typeof ProjectsNetflixIndexLazyImport
+      parentRoute: typeof rootRoute
+    }
   }
 }
 
 // Create and export the route tree
 
-export const routeTree = rootRoute.addChildren([IndexLazyRoute])
+export const routeTree = rootRoute.addChildren([
+  IndexLazyRoute,
+  ProjectsNetflixIndexLazyRoute,
+])
 
 /* prettier-ignore-end */

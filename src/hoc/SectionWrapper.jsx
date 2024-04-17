@@ -1,23 +1,8 @@
 import { motion } from "framer-motion";
-import { useEffect } from "react";
 import { staggerContainer } from "../utils/motion";
 
-function scrollToHash(hash, behavior = "smooth") {
-  if (!hash) return;
-
-  const id = hash.replace("#", "");
-  const element = document.getElementById(id);
-
-  if (element) {
-    element.scrollIntoView({ behavior });
-  }
-}
 const StarWrapper = (Component, idName) =>
   function HOC() {
-    useEffect(() => {
-      scrollToHash(`#${idName}`);
-    }, []);
-
     return (
       <motion.section
         variants={staggerContainer()}
