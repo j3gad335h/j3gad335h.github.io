@@ -1,6 +1,6 @@
 function __vite__mapDeps(indexes) {
   if (!__vite__mapDeps.viteFileDeps) {
-    __vite__mapDeps.viteFileDeps = ["assets/index.lazy-CLnLCPLm.js","assets/createSvgIcon-BAXNrEJJ.js","assets/index.lazy-BoO3XkdQ.js"]
+    __vite__mapDeps.viteFileDeps = ["assets/index.lazy-NntmtMJF.js","assets/createSvgIcon-C2ynqD_h.js","assets/index.lazy-P2ImzLaF.js"]
   }
   return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
 }
@@ -514,4 +514,4 @@ Error generating stack: `+i.message+`
       color: ${e.gray[400]};
       width: ${n[2]};
       height: ${n[2]};
-    `}};let vo=null;function R(){return vo||(vo=d1(),vo)}const da=Cm({component:()=>c.jsxs(c.Fragment,{children:[c.jsx(Ef,{}),c.jsx(c1,{})]})}),f1=Nf("/")(),p1=Nf("/projects/netflix/")(),h1=f1.update({path:"/",getParentRoute:()=>da}).lazy(()=>Tf(()=>import("./index.lazy-CLnLCPLm.js"),__vite__mapDeps([0,1])).then(e=>e.Route)),m1=p1.update({path:"/projects/netflix/",getParentRoute:()=>da}).lazy(()=>Tf(()=>import("./index.lazy-BoO3XkdQ.js"),__vite__mapDeps([2,1])).then(e=>e.Route)),v1=da.addChildren([h1,m1]),g1=Mm({routeTree:v1}),Bu=document.getElementById("root");Bu.innerHTML||dl.createRoot(Bu).render(c.jsx(I.StrictMode,{children:c.jsx(B0,{injectFirst:!0,children:c.jsx(Lm,{router:g1})})}));export{x1 as R,B0 as S,S1 as T,Kt as a,Me as b,q as c,ii as d,C1 as e,ho as f,Au as g,_1 as h,he as i,c as j,tf as k,w1 as l,y1 as m,I as r,Jt as u,k1 as w};
+    `}};let vo=null;function R(){return vo||(vo=d1(),vo)}const da=Cm({component:()=>c.jsxs(c.Fragment,{children:[c.jsx(Ef,{}),c.jsx(c1,{})]})}),f1=Nf("/")(),p1=Nf("/projects/netflix/")(),h1=f1.update({path:"/",getParentRoute:()=>da}).lazy(()=>Tf(()=>import("./index.lazy-NntmtMJF.js"),__vite__mapDeps([0,1])).then(e=>e.Route)),m1=p1.update({path:"/projects/netflix/",getParentRoute:()=>da}).lazy(()=>Tf(()=>import("./index.lazy-P2ImzLaF.js"),__vite__mapDeps([2,1])).then(e=>e.Route)),v1=da.addChildren([h1,m1]),g1=Mm({routeTree:v1}),Bu=document.getElementById("root");Bu.innerHTML||dl.createRoot(Bu).render(c.jsx(I.StrictMode,{children:c.jsx(B0,{injectFirst:!0,children:c.jsx(Lm,{router:g1})})}));export{x1 as R,B0 as S,S1 as T,Kt as a,Me as b,q as c,ii as d,C1 as e,ho as f,Au as g,_1 as h,he as i,c as j,tf as k,w1 as l,y1 as m,I as r,Jt as u,k1 as w};
