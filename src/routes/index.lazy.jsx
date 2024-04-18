@@ -3,6 +3,7 @@ import { createLazyFileRoute } from "@tanstack/react-router";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Experience from "@/components/Experience";
 export const Route = createLazyFileRoute("/")({
   component: IndexComponent,
 });
@@ -15,6 +16,7 @@ function IndexComponent() {
         <Hero />
       </div>
       <About />
+      <Experience />
     </div>
   );
 }
