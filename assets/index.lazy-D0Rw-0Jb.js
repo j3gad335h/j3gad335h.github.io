@@ -1,0 +1,1 @@
+import{i as o,j as t}from"./index-dQHkq3kI.js";import{B as e}from"./Button-BDlRpqlC.js";import"./styled-BPucAGvK.js";const s=o("/test/")({component:()=>t.jsx("div",{children:t.jsx(e,{variant:"contained",color:"primary",className:"bg-black",children:"Test"})})});export{s as Route};
