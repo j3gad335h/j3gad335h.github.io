@@ -1,4 +1,4 @@
-import { fastapi, backend, web, laravel } from "@/assets";
+import { fastapi, backend, web, laravel, compunet } from "@/assets";
 export const navLinks = [
   {
     id: "about",
@@ -11,6 +11,10 @@ export const navLinks = [
   {
     id: "projects",
     title: "Projects",
+  },
+  {
+    id: "skills",
+    title: "Skills",
   },
   {
     id: "contact",
@@ -52,7 +56,7 @@ export const experiences = [
   {
     title: "Senior Developer",
     company_name: "Compunet Connections",
-    icon: "https://storage.cloud.google.com/jegs-archive/logo/cnc.png?authuser=1",
+    icon: compunet,
     iconBg: "#383E56",
     date: "Sep 2022 - Present",
     points: [
@@ -65,7 +69,7 @@ export const experiences = [
   {
     title: "Junior Developer",
     company_name: "Compunet Connections",
-    icon: "https://storage.cloud.google.com/jegs-archive/logo/cnc.png?authuser=1",
+    icon: compunet,
     iconBg: "#383E56",
     date: "Sep 2022 - Present",
     points: [

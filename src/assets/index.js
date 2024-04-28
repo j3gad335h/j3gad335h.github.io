@@ -10,6 +10,9 @@ import web from "./web.png";
 
 // Icons
 import lock from "./icons/lock.svg";
+
+// Logos
+import compunet from "./logo/cnc.png";
 export {
   herobg,
   menu,
@@ -20,4 +23,5 @@ export {
   laravel,
   web,
   lock,
+  compunet,
 };
