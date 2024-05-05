@@ -18,13 +18,14 @@ export const navLinks = [
     title: "Work",
   },
   {
-    id: "projects",
-    title: "Projects",
-  },
-  {
     id: "skills",
     title: "Skills",
   },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+
   {
     id: "contact",
     title: "Contact",
@@ -118,5 +119,129 @@ export const experiences = [
     iconBg: "#fff",
     date: "Dec 2017 - Feb 2018",
     points: ["Design and develop pressure parts for boilers."],
+  },
+];
+
+export const skills = [
+  {
+    title: "Backend",
+    skills: [
+      {
+        name: "PHP",
+        image: "https://www.svgrepo.com/show/373966/php.svg",
+      },
+      {
+        name: "Laravel",
+        image: "https://www.svgrepo.com/show/353985/laravel.svg",
+      },
+
+      {
+        name: "Lumen",
+        image: "https://www.svgrepo.com/show/354019/lumen.svg",
+      },
+      {
+        name: "Python",
+        image: "https://www.svgrepo.com/show/374016/python.svg",
+      },
+      {
+        name: "FastApi",
+        image: "https://www.svgrepo.com/show/330413/fastapi.svg",
+      },
+      {
+        name: "Flask",
+        image: "https://www.svgrepo.com/show/508915/flask.svg",
+      },
+    ],
+  },
+  {
+    title: "Frontend",
+    skills: [
+      {
+        name: "React Js",
+        image:
+          "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+      },
+      {
+        name: "Next Js",
+        image: "https://www.svgrepo.com/show/342062/next-js.svg",
+      },
+      {
+        name: "HTML",
+        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      },
+      {
+        name: "CSS",
+        image: "https://www.svgrepo.com/show/452185/css-3.svg",
+      },
+      {
+        name: "JavaScript",
+        image: "https://www.svgrepo.com/show/353925/javascript.svg",
+      },
+      {
+        name: "Bootstrap",
+        image: "https://www.svgrepo.com/show/353498/bootstrap.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        image: "https://www.svgrepo.com/show/333609/tailwind-css.svg",
+      },
+      {
+        name: "Jinja",
+        image: "https://www.svgrepo.com/show/373702/jinja.svg",
+      },
+    ],
+  },
+  {
+    title: "DevOps",
+    skills: [
+      {
+        name: "Apache2",
+        image: "https://www.svgrepo.com/show/353400/apache.svg",
+      },
+      {
+        name: "Nginx",
+        image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
+      },
+      {
+        name: "Docker",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      },
+      {
+        name: "Jenkins",
+        image:
+          "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
+      },
+    ],
+  },
+  {
+    title: "Others",
+    skills: [
+      {
+        name: "Git",
+        image:
+          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
+      },
+      {
+        name: "GitHub",
+        image:
+          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+      {
+        name: "BitBucket",
+        image:
+          "https://www.svgrepo.com/show/452166/bitbucket.svg",
+      },
+      {
+        name: "VS Code",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+      },
+      {
+        name: "Postman",
+        image:
+          "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
+      },
+    ],
   },
 ];

@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
+import Skills from "@/components/Skills";
 export const Route = createLazyFileRoute("/")({
   component: IndexComponent,
 });
@@ -18,6 +19,7 @@ function IndexComponent() {
       </div>
       <About />
       <Experience />
+      <Skills />
     </div>
   );
 }
