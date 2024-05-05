@@ -13,6 +13,9 @@ import lock from "./icons/lock.svg";
 
 // Logos
 import compunet from "./logo/cnc.png";
+import bhel from "./logo/bhel.png";
+import tnq from "./logo/tnq.png";
+import amazon from "./logo/amazon.png";
 export {
   herobg,
   menu,
@@ -24,4 +27,7 @@ export {
   web,
   lock,
   compunet,
+  bhel,
+  tnq,
+  amazon,
 };
