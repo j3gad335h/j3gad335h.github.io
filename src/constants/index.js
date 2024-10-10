@@ -64,30 +64,15 @@ export const services = [
 ];
 export const experiences = [
   {
-    title: "Senior Developer",
+    title: "Senior Software Developer",
     company_name: "Compunet Connections",
     icon: compunet,
     iconBg: "#000",
-    date: "Jan 2024 - Present",
+    date: "Feb 2022 - Present",
     points: [
-      "Designed and implemented RESTful APIs using FastAPI, adhering to SOLID principles to ensure scalable and maintainable code architecture.",
-      "Implemented Redis caching mechanisms that achieved an 80% reduction in response times, significantly improving application performance.",
-      "Utilized Redis for efficient rate limiting and response caching to optimize application throughput and user experience.",
-      "Conducted data analysis with pandas to streamline loan application processes, achieving a 90% reduction in manual tasks through automation and improved data handling.",
-      "Actively participated in code review sessions, offering constructive feedback and insights to enhance team development practices and code quality.",
-    ],
-  },
-  {
-    title: "Junior Developer",
-    company_name: "Compunet Connections",
-    icon: compunet,
-    iconBg: "#000",
-    date: "Sep 2022 - Dec 2023",
-    points: [
-      "Developing and maintaining web applications using laravel,fastapi and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led full stack system development for fintech applications, ensuring scalability and compliance.",
+      "Implemented CI/CD deployment, reducing manpower by 20% for faster releases.",
+      "Conducted data analysis, achieving 95.61% time savings and enabling instant screening.",
     ],
   },
   {
@@ -97,8 +82,9 @@ export const experiences = [
     iconBg: "#fff",
     date: "Mar 2021 - Feb 2022",
     points: [
-      "Transcribed and annotated image data.",
-      "Assisted with the quality assurance testing of dataset through Excel and pre-QA visualization.",
+      "Developed and maintained scripts for transcribing and annotating image data, ensuring high-quality input for machine learning models.",
+      "Collaborated in the quality assurance testing of datasets, utilizing Excel for data validation and reporting.",
+      "Implemented pre-QA visualizations to analyze data integrity, leading to improvements in dataset reliability and performance.",
     ],
   },
   {
@@ -108,8 +94,8 @@ export const experiences = [
     iconBg: "#fff",
     date: "Aug 2020 - Feb 2021",
     points: [
-      "Logging in the accepted articles in Production Tracking System.",
-      "Coordinated with production staff and maintained schedule for production process.",
+      "Maintained and optimized production schedules using data-driven insights to enhance operational efficiency",
+      "Coordinated with production staff to gather requirements and feedback, facilitating continuous improvement in the production process",
     ],
   },
   {
@@ -118,7 +104,7 @@ export const experiences = [
     icon: bhel,
     iconBg: "#fff",
     date: "Dec 2017 - Feb 2018",
-    points: ["Design and develop pressure parts for boilers."],
+    points: ["Conducted comprehensive evaluations of piping systems and components under various load conditions, identifying potential stress points and optimizing designs for durability."],
   },
 ];
 
@@ -229,8 +215,7 @@ export const skills = [
       },
       {
         name: "BitBucket",
-        image:
-          "https://www.svgrepo.com/show/452166/bitbucket.svg",
+        image: "https://www.svgrepo.com/show/452166/bitbucket.svg",
       },
       {
         name: "VS Code",

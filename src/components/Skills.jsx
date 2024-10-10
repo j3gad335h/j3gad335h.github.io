@@ -12,12 +12,12 @@ const Skills = () => {
                         Skills
                     </h2>
                 </motion.div>
-                <motion.p
+                {/* <motion.p
                     variants={fadeIn("", "", 0.1, 1)}
                     className=" text-secondary text-[17px]  leading-[30px]"
                 >
                     Here are some of my skills on which I have been working on for the past 2 years.
-                </motion.p>
+                </motion.p> */}
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 xl:gap-12 justify-center md:justify-start md:ml-12 mt-5 max-w-5xl">
                     {skills.map((skill, index) => (

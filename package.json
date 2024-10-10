@@ -20,6 +20,7 @@
     "@tanstack/react-router": "^1.27.0",
     "@tanstack/router-devtools": "^1.27.0",
     "@tanstack/router-vite-plugin": "^1.26.21",
+    "caniuse-lite": "^1.0.30001667",
     "framer-motion": "^11.0.28",
     "gh-pages": "^6.1.1",
     "mui-one-time-password-input": "^2.0.2",
